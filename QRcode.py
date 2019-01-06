@@ -14,7 +14,7 @@ def on_connect(client, userdata, flags, rc):
  
         global Connected                #Use global variable
         Connected = True                #Signal connection 
-     else:
+    else:
          print("Connection failed")
  
 Connected = False   #global variable for the state of the connection
